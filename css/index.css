@@ -54,8 +54,20 @@
 	/*background: yellow;*/
 	
 }
-#body .content1 .content img:nth-child(n+2){
-	margin-left: 25.9px;
+#body .content1 .content div:nth-child(1){
+	float: left;
+	width: 256px;
+}
+#body .content1 .content div:nth-child(2){
+	float: left;
+	width: 256px;
+}
+#body .content1 .content div:nth-child(3){
+	float: left;
+	width: 256px;
+}
+#body .content1 .content div:nth-child(4){
+	float: right;
 }
 
 #body .content2{
@@ -170,9 +182,12 @@
 #body .content2 .information .span ul li, #body .content2 .contact .span ul li{
 	font-size: 12px;
 	font-family: "宋体";
-	color: #666;
+	color: #666666;
 	/*background: yellow;*/
 	line-height: 18px;
+}
+#body .content2 .information .span ul li a{
+	color: #666;
 }
 #body .content2 .information .span ul li span{
 	color: #ffdfad;
